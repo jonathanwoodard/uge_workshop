@@ -59,6 +59,119 @@ paging through history
       if not, creates
     history >> filename.txt -appends to file filename.txt
       if it does not exist, creates
+mv -move
+  requires source path/filename, destination path/filename
+  uses current working directory by default
+  changing destination filename renames file
+
+
+
+cd
+git log
+cd uge_workshop/
+ls
+mv moving_around.txt ~
+git status
+git staus
+subl moving_around.txt
+git commit -m 'initial commit for unix notes'
+git commit
+git add unix_notes.txt
+ls -a
+git init
+pwd
+man git-config
+ls uge_workshop/
+mv unix_notes.txt uge_workshop/unix_notes.txt
+mv moving_around.txt uge_workshop/moving_around.txt
+mkdir uge_workshop
+ll
+history > moving_around.txt
+less moving_around.txt
+cat moving_around.txt
+history | sort |less
+history | less
+man history
+history -r
+history
+clear
+subl ~/unix_notes.txt
+mv unixnotes.txt unix_notes.txt
+man ls
+ls -man
+ls man
+ls .
+cd ../..
+ls ..
+cd local/
+cd usr/
+cd ..
+cd boot/
+cd /
+cd Desktop/
+cd Public/
+cd Downloads/
+cd
+la
+ls -h
+ls -oX
+ls -o
+ls -ltr
+ls -lt
+ls -l
+ls -t
+cd /home
+git --version
+ls -G
+curl -fsSL http://git.io/Ggdljw | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'jwoodard@gmail.com'
+git config --global user.name 'jonathanwoodard'
+sudo apt-get install -y git
+echo $PATH
+echo $EDITOR
+subl ~/.config/fish/config.fish
+sudo apt-get install -y sublime-text-installer
+sudo apt-get check
+s
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+sudo apt-get install ruby
+sudo apt-get install ruby1.8
+chsh -s /usr/bin/fish
+sudo apt-get install -y fish git
+sudo apt-get update
+sudo add-apt-repository -y ppa:git-core/ppa
+sudo apt-add-repository -y ppa:webupd8team/sublime-text-3
+sudo apt-add-repository -y ppa:fish-shell/release-2
+curl -fsSL http://git.io/Ak1LNQ | sh
+sudo apt-get install -y curl
+xrandr --output VBOX0 --mode 1920x1080
+xrandr
+xrandr --addmode VBOX0 1920x1080
+xrandr --newmode "1920x1080" 173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+xrandr --addmode VBOX0 1920x1080_60.00
+cvt 1920 1080 60
+nano
+sudo cp xorg.conf /etc/X11/xorg.conf
+xrandr -q
+xrandr --output VBOX0 --mode 1920x1080_60.00
+sudo xrandr --delmode VBOX0 1920x1080_60.00
+xrandr --help
+xrand --help
+xrandr --delmode VBOX0 1920x1080_60.00
+xrandr --delmode VBOX0 1920x1080_60.00d
+xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+rm ~/.config/monitors.xml
+xrandr --addmode VBOX0 -s 1920x1080
+xrandr --addmode VBOX0 hires
+xrandr --newmode VBOX0 1920x1080
+xrandr --output VBOX0 1920x1080
+xrandr --newmode LVDS 60
+xrandr --addmode LVDS hires
+xrandr -s 1920x1080
+xrandr --output LVDS -- mode 1920x1080
+
 
 
 
