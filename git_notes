@@ -9,3 +9,7 @@ git labels
   HEAD points to most recent commit on current branch
   master points to master branch (also most recent commit)
 
+git branch branchname creates new branch
+  git branch without a name tells you which branch you are on
+  new branch starts from current status of the active branch
+
