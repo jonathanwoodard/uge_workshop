@@ -1,0 +1,66 @@
+unix notes
+more stable
+faster
+more compatible
+free!
+
+multi process, user
+linux - ubuntu, android
+darwin - osx, ios
+
+dev friendly -
+data as plaintext files
+nested subdirectories
+many small programs
+input-output redirection
+
+unix kernal is just a program - manages hardware
+interface between other programs and cpu, memory, devices
+safe from hackers!
+terminal is a shell - interface to the kernal
+gui/multi-touch/voice all shells
+
+paths
+absolute path starts with /, relative does not
+commands
+cd - change directory
+cd / takes you to the root directory
+ls - lists contents of current directory
+  modify commands with flags
+  ls -t -most recent modification
+  ls -l -long format
+  ls -r -reverse ordering
+    how to list all flags?
+    man (short for manual)
+
+use ^c to exit program
+space is the default delimiter between strings
+to escape use \
+alternatively enclose in quotes
+
+naming conventions
+  no spaces in names - use - or _
+  linux is case sensitive
+  osx and windows are case insensitive
+    use all lowercase, no spaces
+
+navigating directories
+  .. -up one directory
+  . -current working directory
+  ~ -home directory
+
+paging through history
+  history
+    spits out entire history
+    to page through use history | less
+    to sort   history | sort |less
+    history > filename.txt -outputs to file filename.txt
+      if file exists, overwrites
+      if not, creates
+    history >> filename.txt -appends to file filename.txt
+      if it does not exist, creates
+
+
+
+
+
