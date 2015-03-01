@@ -12,4 +12,10 @@ git labels
 git branch branchname creates new branch
   git branch without a name tells you which branch you are on
   new branch starts from current status of the active branch
+git push -u origin master
+  -u only needs to be run once, specifies where to push to/from
+  after the first time, just use git push
+
+  to get commands:
+    man git push
 
